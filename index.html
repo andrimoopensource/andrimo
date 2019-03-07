@@ -1,12 +1,20 @@
-<script>
-  (function() {
-    var cx = 'partner-pub-1586569966155744:7178146435';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:searchbox-only></gcse:searchbox-only>
+<div id="search-box">
+   <script>
+     (function() {
+	   var cx = "partner-pub-1586569966155744:7178146435";
+	   var gcse = document.createElement("script");
+	   gcse.type = "text/javascript";
+	   gcse.async = true;
+	   gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+	   var s = document.getElementsByTagName("script")[0];
+	   s.parentNode.insertBefore(gcse, s);
+     })();
+     window.onload = function()
+     { 
+	   var searchBox =  document.getElementById("gsc-i-id1");
+	   searchBox.placeholder="Search webslake";
+	   searchBox.title="Search webslake"; 
+     }
+   </script>
+   <gcse:search></gcse:search>
+</div>
