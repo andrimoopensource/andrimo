@@ -42,7 +42,7 @@ form.gsc-search-box,table.gsc-search-box
 button.gsc-search-button
 	{
 	border-left: 1px solid #0173af !important;
-	background-color:transparent !important;
+	background-color:#C0C0C0 !important;
 }
 
 .gsc-branding
