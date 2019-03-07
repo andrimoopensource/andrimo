@@ -62,3 +62,11 @@ button.gsc-search-button
 {
 	background-color:transparent !important;
 }
+.search-box
+{
+	 display:block;
+        width:13px !important;
+        height:13px !important;
+        border-width:0px !important;
+        margin:0px !important;
+}
