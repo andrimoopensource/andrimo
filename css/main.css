@@ -41,8 +41,7 @@ form.gsc-search-box,table.gsc-search-box
 
 button.gsc-search-button
 	{
-	border-left: 1px solid #0173af !important;
-	background-color:transparent !important;
+	display:block; width:13px !important; height:13px !important; border-width:0px !important; margin:0px !important; padding: 10px 6px 10px 13px !important; outline:none; cursor:pointer; box-shadow:none !important; box-sizing: content-box !important;
 }
 
 .gsc-branding
@@ -92,21 +91,9 @@ button.gsc-search-button
 #search-box
 {
 	width:400px;
-	height:33px;
+	height:55px;
 	margin:0 auto;
 	background-color: #0085cc;
 	border-radius: 2px;
 	padding: 5px 9px;
-}
-
-button.gsc-search-button
-{
-	border-left: 1px solid #0173af !important;
-	background-color:transparent !important;
-}
-
-#gsc-i-id1
-{
-	color:#FFF;
-}
 }
