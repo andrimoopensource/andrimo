@@ -40,17 +40,9 @@ form.gsc-search-box,table.gsc-search-box
 }
 
 button.gsc-search-button
-{
-        display:block;
-        width:13px !important;
-        height:13px !important;
-        border-width:0px !important;
-        margin:0px !important;
-        padding: 10px 6px 10px 13px !important;
-        outline:none;
-        cursor:pointer;
-        box-shadow:none !important;
-        box-sizing: content-box !important;
+	{
+	border-left: 1px solid #0173af !important;
+	background-color:transparent !important;
 }
 
 .gsc-branding
